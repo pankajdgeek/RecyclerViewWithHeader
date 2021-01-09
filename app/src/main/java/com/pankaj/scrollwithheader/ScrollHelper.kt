@@ -20,6 +20,7 @@ class ScrollHelper {
     private lateinit var headerMap: TreeMap<Int, Int>
     private var headerFindingJob: Job? = null
     private val isTabClicked = AtomicBoolean(false)
+
     private val _headerUpdate = MutableLiveData<Int>()
     private var recyclerView: WeakReference<RecyclerView>? = null
     private var enableLog: Boolean = false
@@ -110,7 +111,7 @@ class ScrollHelper {
         if (position > dataSize!! - 1) {
             position = dataSize!! - 1
         }
-        if (bottom >= position)
+        if (bottom >= dataSize!!)
             isTabClicked.set(false)
 
         printLog(
