@@ -17,9 +17,12 @@ This a sample project for showing the Recyclerview with Header. We have taken an
 * Kotlin
 
 ## Screenshots and Gif
-
-<img src = https://i.imgur.com/gvCiqo5.png>
-<img src = https://i.imgur.com/BSSGttX.png>
+<P>
+<img src = https://raw.githubusercontent.com/pankajdgeek/RecyclerViewWithHeader/master/images/imgScroll.png width="250" style="margin:2px">
+<img src = https://raw.githubusercontent.com/pankajdgeek/RecyclerViewWithHeader/master/images/imgScroll3.png width="250" style="margin:2px">
+<img src = https://raw.githubusercontent.com/pankajdgeek/RecyclerViewWithHeader/master/images/scrollRecoding.gif
+width="250" style="margin:2px">
+<p>
 
 ## Downloads 
 
